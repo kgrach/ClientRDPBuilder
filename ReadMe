@@ -1,0 +1,12 @@
+Building on RedOS 8 like CentOS ( https://gitlab.com/Remmina/Remmina/-/wikis/Compilation/Compilation-guide-for-RHEL )
+
+
+10) Run ./DelPrecompiled.sh
+
+20) Run ./InstallDeps.sh
+
+30) Run ./GetSource .sh
+
+40) Run ./BuildFreeRDP.sh
+
+50) Run ./BuildRemmina.sh

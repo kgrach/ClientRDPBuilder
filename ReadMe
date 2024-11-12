@@ -1,7 +1,5 @@
-Building on RedOS 8 like CentOS ( https://gitlab.com/Remmina/Remmina/-/wikis/Compilation/Compilation-guide-for-RHEL )
+Building on Ubuntu 22  https://gitlab.com/Remmina/Remmina/-/wikis/Compilation/Compile-on-Ubuntu-22.04
 
-
-10) Run ./DelPrecompiled.sh
 
 20) Run ./InstallDeps.sh
 

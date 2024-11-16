@@ -8,3 +8,10 @@ Building on Ubuntu 22  https://gitlab.com/Remmina/Remmina/-/wikis/Compilation/Co
 40) Run ./BuildFreeRDP.sh
 
 50) Run ./BuildRemmina.sh
+
+
+export WLOG_APPENDER=FILE
+export WLOG_FILEAPPENDER_OUTPUT_FILE_PATH="/home/gka/repos/ClientRDPBuilder/logs/"
+export WLOG_FILEAPPENDER_OUTPUT_FILE_NAME="rdp_log"
+export WLOG_LEVEL=WLOG_TRACE
+export WLOG_PREFIX="[%hr:%mi:%se.%ml][%pid:%tid][%lv][%fn] "

@@ -15,3 +15,4 @@ export WLOG_FILEAPPENDER_OUTPUT_FILE_PATH="/home/gka/repos/ClientRDPBuilder/logs
 export WLOG_FILEAPPENDER_OUTPUT_FILE_NAME="rdp_log"
 export WLOG_LEVEL=WLOG_TRACE
 export WLOG_PREFIX="[%hr:%mi:%se.%ml][%pid:%tid][%lv][%fn] "
+export WLOG_FILTER=com.freerdp.channels.smartcard.client:debug
